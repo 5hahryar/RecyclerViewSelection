@@ -22,7 +22,7 @@ public class ModelAdapter extends RecyclerView.Adapter<ViewHolder> {
     public ModelAdapter(List<Model> mList, Context context) {
         this.mList = mList;
         this.context = context;
-        //setHasStableIds(true);
+        setHasStableIds(true);
     }
 
     @NonNull
